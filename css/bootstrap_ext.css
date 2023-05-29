@@ -1,0 +1,177 @@
+/* Bootstrap Extention Classes */
+.w-30 {
+  width: 30%;
+}
+/* BACKGROUNDS */
+.bg-centro {
+  background-color: #d81f05;
+}
+
+.bg-olimpico {
+  background-color: #00a5da;
+}
+
+.bg-vale {
+  background-color: #80b900;
+}
+
+.bg-litoral {
+  background-color: #f6921e;
+}
+
+.bg-dispersas {
+  background-color: #7b2e82;
+}
+
+.bg-orange-light {
+  background-color: var(--orange-100);
+}
+
+.bg-orange {
+  background-color: var(--orange-200);
+}
+
+.bg-orange-medium {
+  background-color: var(--orange-300);
+}
+
+.bg-orange-dark {
+  background-color: var(--orange-500);
+}
+
+.bg-gray {
+  background-color: var(--gray-500);
+}
+
+.bg-gray-light {
+  background-color: var(--gray-100);
+}
+
+.bg-gray-lighter {
+  background-color: var(--gray-50);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+/* BUTTONS */
+
+.btn-gold {
+  background-color: var(--gold);
+  color: var(--white);
+}
+
+.btn-dark {
+  background-color: var(--orange-500) !important;
+  color: var(--white) !important;
+}
+
+.btn-submit {
+  border-radius: 6px !important;
+  width: 150px !important;
+  font-weight: 600 !important;
+}
+
+/* TEXT COLORS */
+
+.text-white {
+  color: var(--white);
+}
+
+.text-orange {
+  color: var(--orange-500);
+}
+
+.text-gray-light {
+  color: var(--gray-100);
+}
+
+.text-gray-medium {
+  color: var(--gray-300);
+}
+
+.text-gray {
+  color: var(--gray-500);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* SIZING */
+
+.my-128 {
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-48 {
+  font-size: 48px;
+}
+
+.g-template-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.g-template-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.g-column-1 {
+  grid-column: 1;
+}
+
+.g-column-2 {
+  grid-column: 2;
+}
+
+.g-row-1 {
+  grid-row: 1;
+}
+
+.g-row-2 {
+  grid-row: 2;
+}
+
+.g-column-1-span-2 {
+  grid-column: 1 / span 2;
+}
+
+.results-list a {
+  color: #fff;
+}
+
+.resize-none {
+  resize: none;
+}
+
+@media (min-width: 992px) {
+  .h-lg-50 {
+    height: 50%;
+  }
+
+  .fs-lg-18 {
+    font-size: 18px;
+  }
+
+  .fs-lg-48 {
+    font-size: 48px;
+  }
+
+  .w-lg-100 {
+    width: 100%;
+  }
+
+  .g-template-columns-lg-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

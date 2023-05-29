@@ -1,0 +1,29 @@
+{
+  "name": "psaude",
+  "version": "1.0.0",
+  "description": "Package for psaude WP theme",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafinhabusatta/psaude-WP-Theme.git"
+  },
+  "author": "Rafael Lacerda Busatta",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "@wordpress/scripts": "*",
+    "axios": "^0.21.1",
+    "normalize.css": "^8.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/rafinhabusatta/psaude-WP-Theme/issues"
+  },
+  "homepage": "https://github.com/rafinhabusatta/psaude-WP-Theme#readme"
+}

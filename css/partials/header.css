@@ -1,0 +1,33 @@
+/* MENU DE NAVEGAÇÃO */
+.bg-suinfra {
+  background-color: #00c1b4;
+  opacity: 0.9;
+  box-shadow: 0px 3px 10px #000000a6;
+}
+
+#suinfra-navbar-collapse > ul > li {
+  color: #fff;
+}
+
+.bg-submenu {
+  background-color: #001e50;
+}
+
+.navbar-brand img {
+  /* width: auto; */
+  height: 75px;
+}
+
+.color-drop-menu {
+  color: #001e50;
+}
+
+.text-color-link {
+  color: #001e50;
+}
+
+@media (min-width: 992px) {
+  nav li.nav-item {
+    font-size: 18px;
+  }
+}
